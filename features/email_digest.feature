@@ -5,6 +5,7 @@ Feature: Users are able to decide their email preferences
     So that I can receive the emails I want to receive and not be overloaded with emails.
     
 Background: users in databse
+  Given PENDING
   
   Given the following users exist:
     | email                    | admin      | created_at           | password     | password_confirmation     | internal     | external      | executive   |          
